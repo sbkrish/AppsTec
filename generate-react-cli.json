@@ -11,6 +11,13 @@
       "withTest": false,
       "withStory": false,
       "withLazy": false
+    },
+    "style": {
+      "path": "src/styles",
+      "withStyle": false,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
     }
   }
 }

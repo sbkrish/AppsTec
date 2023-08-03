@@ -7,6 +7,7 @@ export default class Counter extends Component {
     this.state = {
         count : 0
     }
+    this.increase = props.data;
   }
   handleIncrease = () => {
     this.setState((val) => ({
@@ -25,7 +26,7 @@ export default class Counter extends Component {
     return (
       <div>
         <h2>Counter : {count}</h2>
-        <button onClick={this.handleIncrease}>Increment</button>
+        <button onClick={this.handleIncrease}>{this.increase}</button>
         <button onClick={this.handleDecrease}>Decrement</button>
       </div>
     )

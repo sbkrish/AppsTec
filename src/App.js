@@ -1,17 +1,24 @@
-import React from 'react';
-import Timer from './components/Timer/Timer';
-import './App.css';
+import React, { Component } from 'react';
+// import ImageCom from './components/ImageCom/ImageCom';
+import Todo from './components/Todo/Todo';
+// import { Provider } from 'react-redux';
+// import Thunk from './components/Thunk/Thunk';
+// import store from './redux/store';
 
-class App extends React.Component {
+// import FormRedux from './components/ReduxForm/FormRedux';
+
+class App extends Component {
   render() {
-    return(
-      <>
-        <div>
-            <h1>Counter APP</h1>
-        </div>
-        <Timer />
-      </>
-    )
+    return (
+      // <Provider store={store}>
+      //   <div>
+      //     <Thunk />
+      //   </div>
+      // </Provider>
+      // <ImageCom />
+      <Todo />
+
+    );
   }
 }
 

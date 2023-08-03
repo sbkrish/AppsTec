@@ -1,1 +1,10 @@
 .Demo {}
+
+.card {
+    width: 300px;
+}
+
+img {
+    object-fit: cover;
+    height: 200px;
+}

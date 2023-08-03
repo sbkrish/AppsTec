@@ -1,15 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './Header.css';
+import React from 'react'
 
-const Header = () => (
-  <div className="Header">
-    Header Component
-  </div>
-);
+let Header = React.memo(({a,b}) => {
+});
 
-Header.propTypes = {};
-
-Header.defaultProps = {};
-
-export default Header;
+export default Header
